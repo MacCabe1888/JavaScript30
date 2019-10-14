@@ -1,0 +1,46 @@
+body {
+  height: 100%;
+  overflow: hidden;
+  background-image: url("../images/koi.png");
+}
+
+div.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85vw;
+  height: 100vw;
+  max-width: 135vh;
+  max-height: 90vh;
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px #a6d69f solid;
+  overflow: auto;
+  background-color: #b4e8ac;
+  text-align: center;
+}
+
+div.project {
+  background-color: #f6eabd;
+  padding-bottom: 0.02px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+div.project:last-child {
+  margin-bottom: 0;
+}
+
+.project-img {
+  width: calc(100% - 20px);
+  border-radius: 10px;
+  margin: 10px 10px 0 10px;
+}
+
+div.project > section.info {
+  background-color: #fbf8c5e5;
+  padding: 0.02px;
+  border-radius: 10px;
+  margin: 5px 10px 10px 10px;
+}
