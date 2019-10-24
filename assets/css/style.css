@@ -4,15 +4,37 @@ body {
   background-image: url("../images/koi.png");
 }
 
+div.header {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 85%);
+  width: 85vw;
+  height: 5vw;
+  max-width: 135vh;
+  max-height: 5vh;
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px #a6d69f solid;
+  background-color: #b4e8ac;
+  text-align: center;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+
 div.container {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -40%);
   width: 85vw;
-  height: 100vw;
+  height: 80vw;
   max-width: 135vh;
-  max-height: 90vh;
+  max-height: 70vh;
   border-radius: 20px;
   padding: 10px;
   border: 1px #a6d69f solid;
