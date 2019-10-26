@@ -4,14 +4,15 @@ body {
   background-image: url("../images/koi.png");
 }
 
-div.header {
+div.container {
   position: absolute;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, 85%);
+  transform: translate(-50%, -50%);
   width: 85vw;
-  height: 5vw;
+  height: 90vw;
   max-width: 135vh;
-  max-height: 5vh;
+  max-height: 80vh;
   border-radius: 20px;
   padding: 10px;
   border: 1px #a6d69f solid;
@@ -19,22 +20,23 @@ div.header {
   text-align: center;
 }
 
-h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -100%);
+div.header {
+  display: flex;
+  justify-content: center;
+  height: 82.88px;
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px #a6d69f solid;
+  margin-bottom: 10px;
+  background-color: #b4e8ac;
 }
 
-div.container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -40%);
-  width: 85vw;
-  height: 80vw;
-  max-width: 135vh;
-  max-height: 70vh;
+h1 {
+  height: 40px;
+}
+
+div.projects {
+  height: calc(100% - 135.88px);
   border-radius: 20px;
   padding: 10px;
   border: 1px #a6d69f solid;
