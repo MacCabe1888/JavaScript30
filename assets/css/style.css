@@ -46,10 +46,21 @@ div.projects {
 }
 
 div.project {
+  width: calc(50% - 5px);
   background-color: #f6eabd;
   padding-bottom: 0.02px;
   border-radius: 15px;
   margin-bottom: 10px;
+}
+
+div.project:nth-child(odd) {
+  float: left;
+  margin-right: 5px;
+}
+
+div.project:nth-child(even) {
+  float: right;
+  margin-left: 5px;
 }
 
 div.project:last-child {
@@ -64,6 +75,8 @@ div.project:last-child {
 
 div.project > section.info {
   background-color: #fbf8c5e5;
+  height: 13.5vw;
+  max-height: 12vh;
   padding: 0.02px;
   border-radius: 10px;
   margin: 5px 10px 10px 10px;
