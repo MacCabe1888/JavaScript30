@@ -4,7 +4,7 @@ A 30-day challenge to create 30 projects in HTML, CSS, and "vanilla" JavaScript 
 ### Visit
 You can visit the deployed site with previews of and links to the individual projects at the following URL: https://maccabe1888.github.io/JavaScript30/
 
-### Overview
+### Overview of Projects
 
 1. JavaScript Drum Kit:
 A virtual drum kit powered by your keyboard.
