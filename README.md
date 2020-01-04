@@ -2,7 +2,9 @@
 A 30-day challenge to create 30 projects in HTML, CSS, and "vanilla" JavaScript (i.e., no libraries such as jQuery, React, etc. allowed).
 
 ### Visit
+
 You can visit the deployed site with previews of and links to the individual projects at the following URL: https://maccabe1888.github.io/JavaScript30/
+
 The JavaScript30 website can be found here:
 https://javascript30.com/
 
