@@ -4,6 +4,7 @@ A 30-day challenge to create 30 projects in HTML, CSS, and "vanilla" JavaScript 
 ### Visit
 
 You can visit the deployed site with previews of and links to the individual projects at the following URL: https://maccabe1888.github.io/JavaScript30/
+
 (Note that some projects are mainly exercises, with little if any UI. In such cases, check the console to see the results.)
 
 The JavaScript30 course website can be found here:
